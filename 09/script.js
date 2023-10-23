@@ -38,9 +38,10 @@ function calculateIMC(weight, height) {
 }
 
 function printIMC(patientImc) {
-  alert(`
-    Olá ${patientImc.name}, seu IMC é ${calculateIMC(patientImc.weight, patientImc.height)}
-  `)
+  let messageIMC = `
+  Olá ${patientImc.name}, seu IMC é ${calculateIMC(patientImc.weight, patientImc.height)}
+`
+  alert(messageIMC)
 }
 
 const patientImc = patients.map(patient => printIMC(patient))
