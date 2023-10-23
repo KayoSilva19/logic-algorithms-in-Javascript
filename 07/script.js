@@ -63,7 +63,6 @@ function closeShowPrompt() {
   }
 } 
 
-
 function defaultPrompt() {
   alert(`🚨Opção inválida. Tente novamente`)
   option = 0
